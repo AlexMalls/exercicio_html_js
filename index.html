@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>HTML to JS</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HTML to JS</h1>
+        <h3>O numero A deve ser menor que o numero B</h3>
+        <form id="form_number">
+            <input type="number" id="numero_a" placeholder="Numero A">
+            <p class="error_msg_a"> Você não digitou um numero </p>
+            <input type="number" id="numero_b" placeholder="Numero B">
+            <p class="error_msg_b"> Você não digitou um numero </p>
+            <button id="btn_validar" type="submit">Validar</button>
+        </form>
+        <p class="success_msg"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
